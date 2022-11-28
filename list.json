@@ -1,0 +1,508 @@
+{
+  "date": {
+    "secs_since_epoch": 1669600161,
+    "nanos_since_epoch": 886000000
+  },
+  "coins": [
+    {
+      "name": "Bitcoin",
+      "price": 16142.38,
+      "symbol": "BTC"
+    },
+    {
+      "name": "Ethereum",
+      "price": 1167.4,
+      "symbol": "ETH"
+    },
+    {
+      "name": "Tether",
+      "price": 1.0,
+      "symbol": "USDT"
+    },
+    {
+      "name": "BNB",
+      "price": 295.2,
+      "symbol": "BNB"
+    },
+    {
+      "name": "USD Coin",
+      "price": 0.998913,
+      "symbol": "USDC"
+    },
+    {
+      "name": "Binance USD",
+      "price": 1.0,
+      "symbol": "BUSD"
+    },
+    {
+      "name": "XRP",
+      "price": 0.380376,
+      "symbol": "XRP"
+    },
+    {
+      "name": "Dogecoin",
+      "price": 0.094240173692,
+      "symbol": "DOGE"
+    },
+    {
+      "name": "Cardano",
+      "price": 0.302781,
+      "symbol": "ADA"
+    },
+    {
+      "name": "Polygon",
+      "price": 0.815123,
+      "symbol": "MATIC"
+    },
+    {
+      "name": "Polkadot",
+      "price": 5.11,
+      "symbol": "DOT"
+    },
+    {
+      "name": "Lido Staked Ether",
+      "price": 1152.35,
+      "symbol": "STETH"
+    },
+    {
+      "name": "Shiba Inu",
+      "price": 8.944655e-6,
+      "symbol": "SHIB"
+    },
+    {
+      "name": "Litecoin",
+      "price": 72.43,
+      "symbol": "LTC"
+    },
+    {
+      "name": "OKB",
+      "price": 20.49,
+      "symbol": "OKB"
+    },
+    {
+      "name": "Dai",
+      "price": 0.995956,
+      "symbol": "DAI"
+    },
+    {
+      "name": "TRON",
+      "price": 0.052334839356,
+      "symbol": "TRX"
+    },
+    {
+      "name": "Solana",
+      "price": 13.17,
+      "symbol": "SOL"
+    },
+    {
+      "name": "LEO Token",
+      "price": 4.23,
+      "symbol": "LEO"
+    },
+    {
+      "name": "Uniswap",
+      "price": 5.2,
+      "symbol": "UNI"
+    },
+    {
+      "name": "Avalanche",
+      "price": 12.23,
+      "symbol": "AVAX"
+    },
+    {
+      "name": "Wrapped Bitcoin",
+      "price": 16086.22,
+      "symbol": "WBTC"
+    },
+    {
+      "name": "Chainlink",
+      "price": 6.61,
+      "symbol": "LINK"
+    },
+    {
+      "name": "Cosmos Hub",
+      "price": 9.64,
+      "symbol": "ATOM"
+    },
+    {
+      "name": "Ethereum Classic",
+      "price": 18.84,
+      "symbol": "ETC"
+    },
+    {
+      "name": "The Open Network",
+      "price": 1.71,
+      "symbol": "TON"
+    },
+    {
+      "name": "Monero",
+      "price": 134.1,
+      "symbol": "XMR"
+    },
+    {
+      "name": "Stellar",
+      "price": 0.087677234142,
+      "symbol": "XLM"
+    },
+    {
+      "name": "Bitcoin Cash",
+      "price": 107.5,
+      "symbol": "BCH"
+    },
+    {
+      "name": "Quant",
+      "price": 113.6,
+      "symbol": "QNT"
+    },
+    {
+      "name": "Algorand",
+      "price": 0.230232,
+      "symbol": "ALGO"
+    },
+    {
+      "name": "Cronos",
+      "price": 0.061926155277,
+      "symbol": "CRO"
+    },
+    {
+      "name": "Filecoin",
+      "price": 4.17,
+      "symbol": "FIL"
+    },
+    {
+      "name": "VeChain",
+      "price": 0.018203261722,
+      "symbol": "VET"
+    },
+    {
+      "name": "ApeCoin",
+      "price": 3.6,
+      "symbol": "APE"
+    },
+    {
+      "name": "NEAR Protocol",
+      "price": 1.52,
+      "symbol": "NEAR"
+    },
+    {
+      "name": "Hedera",
+      "price": 0.047829281235,
+      "symbol": "HBAR"
+    },
+    {
+      "name": "Frax",
+      "price": 1.0,
+      "symbol": "FRAX"
+    },
+    {
+      "name": "Flow",
+      "price": 1.1,
+      "symbol": "FLOW"
+    },
+    {
+      "name": "Internet Computer",
+      "price": 3.8,
+      "symbol": "ICP"
+    },
+    {
+      "name": "MultiversX (Elrond)",
+      "price": 42.04,
+      "symbol": "EGLD"
+    },
+    {
+      "name": "EOS",
+      "price": 0.89701,
+      "symbol": "EOS"
+    },
+    {
+      "name": "Terra Luna Classic",
+      "price": 0.000155980337,
+      "symbol": "LUNC"
+    },
+    {
+      "name": "Chain",
+      "price": 0.042894792176,
+      "symbol": "XCN"
+    },
+    {
+      "name": "Pax Dollar",
+      "price": 1.0,
+      "symbol": "USDP"
+    },
+    {
+      "name": "Theta Network",
+      "price": 0.900248,
+      "symbol": "THETA"
+    },
+    {
+      "name": "Tezos",
+      "price": 0.963999,
+      "symbol": "XTZ"
+    },
+    {
+      "name": "Huobi",
+      "price": 6.51,
+      "symbol": "HT"
+    },
+    {
+      "name": "Chiliz",
+      "price": 0.160279,
+      "symbol": "CHZ"
+    },
+    {
+      "name": "The Sandbox",
+      "price": 0.546645,
+      "symbol": "SAND"
+    },
+    {
+      "name": "Aave",
+      "price": 59.77,
+      "symbol": "AAVE"
+    },
+    {
+      "name": "Lido DAO",
+      "price": 1.05,
+      "symbol": "LDO"
+    },
+    {
+      "name": "TrueUSD",
+      "price": 1.0,
+      "symbol": "TUSD"
+    },
+    {
+      "name": "Trust Wallet",
+      "price": 1.93,
+      "symbol": "TWT"
+    },
+    {
+      "name": "Bitcoin SV",
+      "price": 39.05,
+      "symbol": "BSV"
+    },
+    {
+      "name": "Axie Infinity",
+      "price": 6.47,
+      "symbol": "AXS"
+    },
+    {
+      "name": "USDD",
+      "price": 0.990077,
+      "symbol": "USDD"
+    },
+    {
+      "name": "Decentraland",
+      "price": 0.387982,
+      "symbol": "MANA"
+    },
+    {
+      "name": "KuCoin",
+      "price": 6.75,
+      "symbol": "KCS"
+    },
+    {
+      "name": "BitTorrent",
+      "price": 6.68352e-7,
+      "symbol": "BTT"
+    },
+    {
+      "name": "Gemini Dollar",
+      "price": 1.0,
+      "symbol": "GUSD"
+    },
+    {
+      "name": "WhiteBIT Token",
+      "price": 4.94,
+      "symbol": "WBT"
+    },
+    {
+      "name": "PancakeSwap",
+      "price": 3.88,
+      "symbol": "CAKE"
+    },
+    {
+      "name": "Aptos",
+      "price": 4.44,
+      "symbol": "APT"
+    },
+    {
+      "name": "Tokenize Xchange",
+      "price": 7.26,
+      "symbol": "TKX"
+    },
+    {
+      "name": "IOTA",
+      "price": 0.207332,
+      "symbol": "MIOTA"
+    },
+    {
+      "name": "cUSDC",
+      "price": 0.022712657173,
+      "symbol": "CUSDC"
+    },
+    {
+      "name": "Maker",
+      "price": 627.21,
+      "symbol": "MKR"
+    },
+    {
+      "name": "eCash",
+      "price": 0.000028546617,
+      "symbol": "XEC"
+    },
+    {
+      "name": "Gate",
+      "price": 3.62,
+      "symbol": "GT"
+    },
+    {
+      "name": "Klaytn",
+      "price": 0.171698,
+      "symbol": "KLAY"
+    },
+    {
+      "name": "Zcash",
+      "price": 39.15,
+      "symbol": "ZEC"
+    },
+    {
+      "name": "BTSE Token",
+      "price": 3.03,
+      "symbol": "BTSE"
+    },
+    {
+      "name": "Osmosis",
+      "price": 0.99877,
+      "symbol": "OSMO"
+    },
+    {
+      "name": "PAX Gold",
+      "price": 1744.04,
+      "symbol": "PAXG"
+    },
+    {
+      "name": "NEO",
+      "price": 6.65,
+      "symbol": "NEO"
+    },
+    {
+      "name": "Fantom",
+      "price": 0.180125,
+      "symbol": "FTM"
+    },
+    {
+      "name": "Arweave",
+      "price": 9.1,
+      "symbol": "AR"
+    },
+    {
+      "name": "The Graph",
+      "price": 0.060649019382,
+      "symbol": "GRT"
+    },
+    {
+      "name": "cDAI",
+      "price": 0.022137270892,
+      "symbol": "CDAI"
+    },
+    {
+      "name": "Dash",
+      "price": 39.47,
+      "symbol": "DASH"
+    },
+    {
+      "name": "Curve DAO",
+      "price": 0.649865,
+      "symbol": "CRV"
+    },
+    {
+      "name": "cETH",
+      "price": 24.04,
+      "symbol": "CETH"
+    },
+    {
+      "name": "Tether Gold",
+      "price": 1705.04,
+      "symbol": "XAUT"
+    },
+    {
+      "name": "Mina Protocol",
+      "price": 0.551624,
+      "symbol": "MINA"
+    },
+    {
+      "name": "Synthetix Network",
+      "price": 1.62,
+      "symbol": "SNX"
+    },
+    {
+      "name": "BinaryX",
+      "price": 145.57,
+      "symbol": "BNX"
+    },
+    {
+      "name": "NEXO",
+      "price": 0.672192,
+      "symbol": "NEXO"
+    },
+    {
+      "name": "Radix",
+      "price": 0.035688658314,
+      "symbol": "XRD"
+    },
+    {
+      "name": "THORChain",
+      "price": 1.15,
+      "symbol": "RUNE"
+    },
+    {
+      "name": "GMX",
+      "price": 41.73,
+      "symbol": "GMX"
+    },
+    {
+      "name": "EthereumPoW",
+      "price": 3.2,
+      "symbol": "ETHW"
+    },
+    {
+      "name": "Ethereum Name Service",
+      "price": 12.92,
+      "symbol": "ENS"
+    },
+    {
+      "name": "Zilliqa",
+      "price": 0.021919790872,
+      "symbol": "ZIL"
+    },
+    {
+      "name": "Basic Attention",
+      "price": 0.221679,
+      "symbol": "BAT"
+    },
+    {
+      "name": "Frax Share",
+      "price": 4.56,
+      "symbol": "FXS"
+    },
+    {
+      "name": "Stacks",
+      "price": 0.241665,
+      "symbol": "STX"
+    },
+    {
+      "name": "Helium",
+      "price": 2.41,
+      "symbol": "HNT"
+    },
+    {
+      "name": "XDC Network",
+      "price": 0.023233318376,
+      "symbol": "XDC"
+    },
+    {
+      "name": "Casper Network",
+      "price": 0.030380465093,
+      "symbol": "CSPR"
+    }
+  ]
+}
