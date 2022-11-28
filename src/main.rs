@@ -1,4 +1,9 @@
-use std::{f64, fs::write, time::SystemTime};
+use std::{
+    f64,
+    fs::{read, read_to_string, write},
+    path::PathBuf,
+    time::SystemTime,
+};
 
 use scraper::{ElementRef, Html, Selector};
 use serde::{Deserialize, Serialize};
@@ -23,6 +28,29 @@ impl List {
     fn save(&self) {
         let s = serde_json::to_string_pretty(&self).unwrap();
         write("list.json", &s).unwrap();
+    }
+    fn check(&self) {
+        let path = PathBuf::from("list.json");
+        if path.exists() {
+            let s = read_to_string("list.json").unwrap();
+            let old_list: List = serde_json::from_str(&s).unwrap();
+
+            for nc in &self.coins {
+                if let Some(old_coin) = old_list.coins.iter().find(|&oc| oc.symbol == nc.symbol) {
+                    let diff_percent = 100.0 * ( (nc.price - old_coin.price) / ( nc.price+old_coin.price / 2.0 ) );
+
+                    if diff_percent.abs() >= 3.0 {
+                        println!("=============");
+                        println!("Coin: {} ({})", &nc.name, &nc.symbol);
+                        println!("Old: {}", &old_coin.price);
+                        println!("New: {}", &nc.price);
+                        println!("Diff: {}", &diff_percent);
+                    }
+
+                }
+            }
+        }
+        self.save();
     }
 }
 
@@ -81,6 +109,5 @@ fn fetch_coins() -> Vec<Coin> {
 }
 
 fn main() {
-    let list = List::new();
-    list.save();
+    List::new().check();
 }
